@@ -66,9 +66,12 @@ span {
 #planos {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 8%;
-    margin-top: 20px;
+    margin-top: 5%;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
 }
 .plano {
   background-image: linear-gradient(
@@ -80,6 +83,7 @@ span {
   height: 200px;
   width: 300px;
   border-radius: 5%;
+  border: solid 3px white;
 }
 .plano-container {
   width: 300px;
@@ -89,8 +93,9 @@ span {
 }
 #nome-plano {
   color: #fff;
-  padding: 20px;
-  padding-left: 50px;
+  padding: 20%;
+  padding-top: 20%;
+  align-items: center;
 }
 hr{
     width: 250px;
@@ -105,4 +110,9 @@ hr{
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+ margin-top: 5%;
+}
+
+#p-itens{
+  margin-top: 10%;
 }
