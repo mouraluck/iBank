@@ -11,6 +11,9 @@
 body {
   background-color: rgba(26, 26, 26, 255);
 }
+.menu-icon {
+  display: none;
+}
 #logo {
   margin: 30px;
 }
@@ -25,8 +28,8 @@ nav {
   height: 80px;
 }
 ul {
-  margin-top: 50px;
-  margin-right: 60px;
+    margin-top: 50px;
+    margin-right: 60px;
   text-decoration: none;
   flex-direction: row;
   display: grid;
